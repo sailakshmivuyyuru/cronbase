@@ -1,0 +1,78 @@
+# Compiled class files
+*.class
+
+# Logs
+*.log
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Mac
+.DS_Store
+
+# Environment files
+.env
+.env.*
+
+# Application secrets
+application-local.yml
+application-prod.yml
+application-secret.yml
+
+# OS generated files
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Kubernetes
+*.kubeconfig
+
+# Temporary files
+tmp/
+temp/
+
+# Coverage / Reports
+coverage/
+reports/
+
+# PostgreSQL
+*.sql.bak
+
+# Spring Boot
+spring.log
+
+# Generated files
+*.jar
+*.war
+*.ear
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
